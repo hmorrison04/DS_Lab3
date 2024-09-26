@@ -2,7 +2,7 @@
 public class Robot extends Hero
 {
 	String name;
-	Job job;
+	//Job job;
 	String jobName;
 
 	public Robot(String race, Job job)//, String jobName)

@@ -5,7 +5,6 @@ public class Mage implements Job
 	public Mage()
 	{
 		// TODO Auto-generated constructor stub
-		super();
 	}
 
 	@Override

@@ -16,7 +16,6 @@ public class HeroFactory
     	  {
     		  Job job1 = new Warrior();
     		  Elf elvenWarrior = new Elf(raceName, job1);//, jobName);
-    		  
     		  return elvenWarrior;
     		  
     	  }
@@ -25,14 +24,15 @@ public class HeroFactory
     	  {
     		  Job job2 = new Archer();
     		  Elf elvenArcher = new Elf(raceName, job2);//, jobName);
-    		///  return elvenArcher;
+    		  
+    		  return elvenArcher;
     	  }
     	  
     	  else if(jobName.equals("MAGE"))
     	  {
     		  Job job3 = new Mage();
     		  Elf elvenMage = new Elf(raceName, job3);//, jobName);
-    		//  return elvenMage;
+    		  return elvenMage;
     	  }
       }
       
@@ -84,8 +84,8 @@ public class HeroFactory
     	  }
       }
 	   
-	   
 	   return null;
+	  
    }
 
 

@@ -2,7 +2,7 @@
 public class Elf extends Hero
 {
 	String name;
-	Job job;
+	//Job job;
 	String jobName;
 	public Elf(String race, Job job)//, String jobName)
 	{
